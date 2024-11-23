@@ -15,16 +15,24 @@ public class MovementManager : MonoBehaviour
 
     void Update()
     {
-        HandleMovement();
-        HandleJump();
+        Debug.Log(gameObject.name);
+        if (gameObject.name == "player1")
+        {
+            HandleKeyboardMovement();
+            HandleKeyboardJump();
+        }
+        else if (gameObject.name == "player2")
+        {
+            HandleControllerMovement();
+            HandleControllerJump();
+        }
     }
 
-    private void HandleMovement()
+    private void HandleKeyboardMovement()
     {
-        float horizontalInput = Input.GetAxis("Horizontal");
+        float horizontalInput = Input.GetAxisRaw("Horizontal");
 
         rb.linearVelocity = new Vector2(horizontalInput * moveSpeed, rb.linearVelocity.y);
-
 
         if (horizontalInput < 0)
         {
@@ -36,11 +44,35 @@ public class MovementManager : MonoBehaviour
         }
     }
 
-    private void HandleJump()
+    private void HandleControllerMovement()
+    {
+        float horizontalInput = Input.GetAxis("JoystickHorizontal");
+
+        rb.linearVelocity = new Vector2(horizontalInput * moveSpeed, rb.linearVelocity.y);
+
+        if (horizontalInput < 0)
+        {
+            transform.localScale = new Vector3(-1f, 1f, 1f);
+        }
+        else if (horizontalInput > 0)
+        {
+            transform.localScale = new Vector3(1f, 1f, 1f);
+        }
+    }
+
+    private void HandleKeyboardJump()
     {
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+            isGrounded = false;
+        }
+    }
 
+    private void HandleControllerJump()
+    {
+        if (Input.GetKeyDown(KeyCode.Joystick1Button1) && isGrounded)
+        {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
             isGrounded = false;
         }
