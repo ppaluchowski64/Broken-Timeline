@@ -1,0 +1,617 @@
+fileFormatVersion: 2
+guid: f837fe738ec5dd043b0af682c5209c57
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7253546063362543841
+    second: Prehistoric_platforms_0
+  - first:
+      213: -940824657592982215
+    second: Prehistoric_platforms_1
+  - first:
+      213: -8045969614053702445
+    second: Prehistoric_platforms_2
+  - first:
+      213: 6285285026857722515
+    second: Prehistoric_platforms_3
+  - first:
+      213: -8739806053710878133
+    second: Prehistoric_platforms_4
+  - first:
+      213: -2654324028414135879
+    second: Prehistoric_platforms_5
+  - first:
+      213: -472421189257256993
+    second: Prehistoric_platforms_6
+  - first:
+      213: 3154568510443466851
+    second: Prehistoric_platforms_7
+  - first:
+      213: -3507743241352198465
+    second: Prehistoric_platforms_8
+  - first:
+      213: 8596760453331781966
+    second: Prehistoric_platforms_9
+  - first:
+      213: -6511490968714282422
+    second: Prehistoric_platforms_10
+  - first:
+      213: 4520451517025054194
+    second: Prehistoric_platforms_11
+  - first:
+      213: -5179301734351428220
+    second: Prehistoric_platforms_12
+  - first:
+      213: -352826614004813455
+    second: Prehistoric_platforms_13
+  - first:
+      213: 6343554822621287485
+    second: Prehistoric_platforms_14
+  - first:
+      213: 7946419123888511012
+    second: Prehistoric_platforms_15
+  - first:
+      213: 883961764018934694
+    second: Prehistoric_platforms_16
+  - first:
+      213: -8573118749784782803
+    second: Prehistoric_platforms_17
+  - first:
+      213: 1608682888408851236
+    second: Prehistoric_platforms_18
+  - first:
+      213: -5949386943263110594
+    second: Prehistoric_platforms_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Prehistoric_platforms_0
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 891
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1fa75b494a365b90800000000000000
+      internalID: -7253546063362543841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prehistoric_platforms_1
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 795
+        width: 394
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 935ed3865f481f2f0800000000000000
+      internalID: -940824657592982215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prehistoric_platforms_2
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 715
+        width: 78
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d40eb0f349f65090800000000000000
+      internalID: -8045969614053702445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prehistoric_platforms_3
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 631
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 392afe95e61d93750800000000000000
+      internalID: 6285285026857722515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prehistoric_platforms_4
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 627
+        width: 74
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4a21ca13b8f5b680800000000000000
+      internalID: -8739806053710878133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prehistoric_platforms_5
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 587
+        width: 482
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b1779ffb52f92bd0800000000000000
+      internalID: -2654324028414135879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prehistoric_platforms_6
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 547
+        width: 358
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdf14fd6e6f9179f0800000000000000
+      internalID: -472421189257256993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prehistoric_platforms_7
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 491
+        width: 182
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 360bd9cb85747cb20800000000000000
+      internalID: 3154568510443466851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prehistoric_platforms_8
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 499
+        width: 78
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb6cce75b1ef15fc0800000000000000
+      internalID: -3507743241352198465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prehistoric_platforms_9
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 391
+        width: 466
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4987ffa514dd4770800000000000000
+      internalID: 8596760453331781966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prehistoric_platforms_10
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 403
+        width: 98
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4afe9b967982a5a0800000000000000
+      internalID: -6511490968714282422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prehistoric_platforms_11
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 411
+        width: 234
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fd67a054bedbbe30800000000000000
+      internalID: 4520451517025054194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prehistoric_platforms_12
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 303
+        width: 90
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4852b63838c6f18b0800000000000000
+      internalID: -5179301734351428220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prehistoric_platforms_13
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 267
+        width: 586
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17170fc50128a1bf0800000000000000
+      internalID: -352826614004813455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prehistoric_platforms_14
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 155
+        width: 390
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d34de876085d80850800000000000000
+      internalID: 6343554822621287485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prehistoric_platforms_15
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 191
+        width: 286
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 428debb571a574e60800000000000000
+      internalID: 7946419123888511012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prehistoric_platforms_16
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 227
+        width: 238
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a3506b7a86744c00800000000000000
+      internalID: 883961764018934694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prehistoric_platforms_17
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 135
+        width: 230
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2846dd5be9260980800000000000000
+      internalID: -8573118749784782803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prehistoric_platforms_18
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 31
+        width: 486
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 423ebd75090335610800000000000000
+      internalID: 1608682888408851236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prehistoric_platforms_19
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 11
+        width: 794
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3a8477a8188f6da0800000000000000
+      internalID: -5949386943263110594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

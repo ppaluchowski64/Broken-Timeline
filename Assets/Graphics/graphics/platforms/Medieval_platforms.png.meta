@@ -1,0 +1,717 @@
+fileFormatVersion: 2
+guid: 3dd08d548ad22a2458cda75bdce2159c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8752170257438767858
+    second: Medieval_platforms_0
+  - first:
+      213: -2508485371013940388
+    second: Medieval_platforms_1
+  - first:
+      213: 7281968655463881676
+    second: Medieval_platforms_2
+  - first:
+      213: -126348328210913308
+    second: Medieval_platforms_3
+  - first:
+      213: -5377465529086974616
+    second: Medieval_platforms_4
+  - first:
+      213: -4865398516338124784
+    second: Medieval_platforms_5
+  - first:
+      213: -327271683988702574
+    second: Medieval_platforms_6
+  - first:
+      213: -5580216145547765989
+    second: Medieval_platforms_7
+  - first:
+      213: 5122618409784415266
+    second: Medieval_platforms_8
+  - first:
+      213: -5820138452834790223
+    second: Medieval_platforms_9
+  - first:
+      213: 7155686633218358921
+    second: Medieval_platforms_10
+  - first:
+      213: -7007618215105639937
+    second: Medieval_platforms_11
+  - first:
+      213: 8811932293382807601
+    second: Medieval_platforms_12
+  - first:
+      213: -9150811454453239799
+    second: Medieval_platforms_13
+  - first:
+      213: -7671444691179440641
+    second: Medieval_platforms_14
+  - first:
+      213: -527277979875426164
+    second: Medieval_platforms_15
+  - first:
+      213: -3639683442236543180
+    second: Medieval_platforms_16
+  - first:
+      213: 2721629794287245415
+    second: Medieval_platforms_17
+  - first:
+      213: 2401713137898581730
+    second: Medieval_platforms_18
+  - first:
+      213: -5136019870187252044
+    second: Medieval_platforms_19
+  - first:
+      213: -9043309221748651914
+    second: Medieval_platforms_20
+  - first:
+      213: 99334406793513653
+    second: Medieval_platforms_21
+  - first:
+      213: -879343053050635968
+    second: Medieval_platforms_22
+  - first:
+      213: 596687390502095905
+    second: Medieval_platforms_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Medieval_platforms_0
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 811
+        width: 398
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fa70686a74f57970800000000000000
+      internalID: 8752170257438767858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_platforms_1
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 715
+        width: 78
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5b337878d1103dd0800000000000000
+      internalID: -2508485371013940388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_platforms_2
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 631
+        width: 86
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccb147e19efbe0560800000000000000
+      internalID: 7281968655463881676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_platforms_3
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 599
+        width: 498
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e7260b6dde1f3ef0800000000000000
+      internalID: -126348328210913308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_platforms_4
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 571
+        width: 330
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 865ecd2a7976f55b0800000000000000
+      internalID: -5377465529086974616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_platforms_5
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 567
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01814fec3d1aa7cb0800000000000000
+      internalID: -4865398516338124784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_platforms_6
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 559
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29a3fca232c457bf0800000000000000
+      internalID: -327271683988702574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_platforms_7
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 555
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b17d9ba1bf61f82b0800000000000000
+      internalID: -5580216145547765989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_platforms_8
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 535
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 224931b8d42371740800000000000000
+      internalID: 5122618409784415266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_platforms_9
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 519
+        width: 170
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b4d03fd9e6ba3fa0800000000000000
+      internalID: -5820138452834790223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_platforms_10
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 527
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98ebdf8941b1e4360800000000000000
+      internalID: 7155686633218358921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_platforms_11
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 499
+        width: 82
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff9421f7c50ffbe90800000000000000
+      internalID: -7007618215105639937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_platforms_12
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 495
+        width: 58
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13020e3bbb54a4a70800000000000000
+      internalID: 8811932293382807601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_platforms_13
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 411
+        width: 418
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9003dba1779c10180800000000000000
+      internalID: -9150811454453239799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_platforms_14
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 411
+        width: 82
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff5713cc2bd898590800000000000000
+      internalID: -7671444691179440641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_platforms_15
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 435
+        width: 222
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c80c3af887bbea8f0800000000000000
+      internalID: -527277979875426164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_platforms_16
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 303
+        width: 94
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43fae92713f3d7dc0800000000000000
+      internalID: -3639683442236543180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_platforms_17
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 287
+        width: 546
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7685c9ac0eb25c520800000000000000
+      internalID: 2721629794287245415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_platforms_18
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 219
+        width: 246
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ee65d4cf59945120800000000000000
+      internalID: 2401713137898581730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_platforms_19
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 239
+        width: 254
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b6142ec32139b8b0800000000000000
+      internalID: -5136019870187252044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_platforms_20
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 179
+        width: 406
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67848a32d26bf7280800000000000000
+      internalID: -9043309221748651914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_platforms_21
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 147
+        width: 242
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bac6eedd18e06100800000000000000
+      internalID: 99334406793513653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_platforms_22
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 43
+        width: 462
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0499537f622fbc3f0800000000000000
+      internalID: -879343053050635968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval_platforms_23
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 31
+        width: 814
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12c05d0350cd74800800000000000000
+      internalID: 596687390502095905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

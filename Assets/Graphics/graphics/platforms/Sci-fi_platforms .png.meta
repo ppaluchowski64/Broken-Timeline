@@ -1,0 +1,967 @@
+fileFormatVersion: 2
+guid: 08b38d54882703245a916f3e8bb479af
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3549773356398110962
+    second: Sci-fi_platforms _0
+  - first:
+      213: -7400135039540485364
+    second: Sci-fi_platforms _1
+  - first:
+      213: -7533115190111528227
+    second: Sci-fi_platforms _2
+  - first:
+      213: 857650337562928248
+    second: Sci-fi_platforms _3
+  - first:
+      213: -6379472784636487483
+    second: Sci-fi_platforms _4
+  - first:
+      213: 569068511994111100
+    second: Sci-fi_platforms _5
+  - first:
+      213: 2002245782504802554
+    second: Sci-fi_platforms _6
+  - first:
+      213: 6989251781288784891
+    second: Sci-fi_platforms _7
+  - first:
+      213: -1931189814673069546
+    second: Sci-fi_platforms _8
+  - first:
+      213: 5936524744492852594
+    second: Sci-fi_platforms _9
+  - first:
+      213: 3805400011531964474
+    second: Sci-fi_platforms _10
+  - first:
+      213: 2799513136414044227
+    second: Sci-fi_platforms _11
+  - first:
+      213: -1399837890298765539
+    second: Sci-fi_platforms _12
+  - first:
+      213: 6619030994811212678
+    second: Sci-fi_platforms _13
+  - first:
+      213: 5776533944403692476
+    second: Sci-fi_platforms _14
+  - first:
+      213: -1601939836045013234
+    second: Sci-fi_platforms _15
+  - first:
+      213: 6955538889582432908
+    second: Sci-fi_platforms _16
+  - first:
+      213: -3175720515146115936
+    second: Sci-fi_platforms _17
+  - first:
+      213: -4170165831824815395
+    second: Sci-fi_platforms _18
+  - first:
+      213: 8602986680712213037
+    second: Sci-fi_platforms _19
+  - first:
+      213: 7735948941932476504
+    second: Sci-fi_platforms _20
+  - first:
+      213: -124274984800230035
+    second: Sci-fi_platforms _21
+  - first:
+      213: -6476337483052743740
+    second: Sci-fi_platforms _22
+  - first:
+      213: -5632497087705853068
+    second: Sci-fi_platforms _23
+  - first:
+      213: 8624743575676127563
+    second: Sci-fi_platforms _24
+  - first:
+      213: 3136136656889267236
+    second: Sci-fi_platforms _25
+  - first:
+      213: -538378972066800516
+    second: Sci-fi_platforms _26
+  - first:
+      213: -1481904862255886402
+    second: Sci-fi_platforms _27
+  - first:
+      213: 3102745206256874704
+    second: Sci-fi_platforms _28
+  - first:
+      213: -134353348402123023
+    second: Sci-fi_platforms _29
+  - first:
+      213: 5443300213068158847
+    second: Sci-fi_platforms _30
+  - first:
+      213: -5148911430758664652
+    second: Sci-fi_platforms _31
+  - first:
+      213: 3197703798370835567
+    second: Sci-fi_platforms _32
+  - first:
+      213: -3596479259786057604
+    second: Sci-fi_platforms _33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sci-fi_platforms _0
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 923
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e079eba90fbacbec0800000000000000
+      internalID: -3549773356398110962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi_platforms _1
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 883
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c03a44e93607d4990800000000000000
+      internalID: -7400135039540485364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi_platforms _2
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 807
+        width: 398
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dda9d4195aff47790800000000000000
+      internalID: -7533115190111528227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi_platforms _3
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 711
+        width: 90
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 874aeef107cf6eb00800000000000000
+      internalID: 857650337562928248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi_platforms _4
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 627
+        width: 94
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c858716d4f8777a0800000000000000
+      internalID: -6379472784636487483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi_platforms _5
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 591
+        width: 502
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c74e44eebccb5e700800000000000000
+      internalID: 569068511994111100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi_platforms _6
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 567
+        width: 342
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af8093b4ee769cb10800000000000000
+      internalID: 2002245782504802554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi_platforms _7
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 567
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf3fb75e67fcef060800000000000000
+      internalID: 6989251781288784891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi_platforms _8
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 551
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a2f8e68190335e0800000000000000
+      internalID: -1931189814673069546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi_platforms _9
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 535
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27520d35dc5c26250800000000000000
+      internalID: 5936524744492852594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi_platforms _10
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 515
+        width: 170
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3051ab062f7fc430800000000000000
+      internalID: 3805400011531964474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi_platforms _11
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 523
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 340bff77d5ed9d620800000000000000
+      internalID: 2799513136414044227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi_platforms _12
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 491
+        width: 90
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1f1c9dfad6c29ce0800000000000000
+      internalID: -1399837890298765539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi_platforms _13
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 515
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683d503ee958bdb50800000000000000
+      internalID: 6619030994811212678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi_platforms _14
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 491
+        width: 66
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbb0b2d540f5a2050800000000000000
+      internalID: 5776533944403692476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi_platforms _15
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 471
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0f4df0e434c4c9e0800000000000000
+      internalID: -1601939836045013234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi_platforms _16
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 407
+        width: 422
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c82d9fe94c9078060800000000000000
+      internalID: 6955538889582432908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi_platforms _17
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 439
+        width: 222
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a49bc464039de3d0800000000000000
+      internalID: -3175720515146115936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi_platforms _18
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 439
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dda4c9b35489026c0800000000000000
+      internalID: -4170165831824815395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi_platforms _19
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 411
+        width: 102
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d22b4473ec2f36770800000000000000
+      internalID: 8602986680712213037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi_platforms _20
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 431
+        width: 26
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 858b17c639c9b5b60800000000000000
+      internalID: 7735948941932476504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi_platforms _21
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 347
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d65e38c4f8c764ef0800000000000000
+      internalID: -124274984800230035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi_platforms _22
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 335
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c3081d4f5d6f16a0800000000000000
+      internalID: -6476337483052743740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi_platforms _23
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 303
+        width: 98
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 473ded0bdb955d1b0800000000000000
+      internalID: -5632497087705853068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi_platforms _24
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 287
+        width: 322
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b490203169e31b770800000000000000
+      internalID: 8624743575676127563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi_platforms _25
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 287
+        width: 238
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42447f86cabc58b20800000000000000
+      internalID: 3136136656889267236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi_platforms _26
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 215
+        width: 258
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7c1b676d2b4788f0800000000000000
+      internalID: -538378972066800516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi_platforms _27
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 235
+        width: 250
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebf405611673f6be0800000000000000
+      internalID: -1481904862255886402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi_platforms _28
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 223
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d4bc77735a2f0b20800000000000000
+      internalID: 3102745206256874704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi_platforms _29
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 175
+        width: 162
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fe6b1a675ea22ef0800000000000000
+      internalID: -134353348402123023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi_platforms _30
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 175
+        width: 278
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f775cb534bc7a8b40800000000000000
+      internalID: 5443300213068158847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi_platforms _31
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 147
+        width: 242
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4367ea575546b88b0800000000000000
+      internalID: -5148911430758664652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi_platforms _32
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 43
+        width: 470
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6c9fc699a6806c20800000000000000
+      internalID: 3197703798370835567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi_platforms _33
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 27
+        width: 818
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c78646e0b2db61ec0800000000000000
+      internalID: -3596479259786057604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
