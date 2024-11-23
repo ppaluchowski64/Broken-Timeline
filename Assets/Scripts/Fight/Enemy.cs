@@ -1,27 +1,43 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour {
+public class Enemy : MonoBehaviour
+{
+    public int maxHealth = 100; // Maximum health value
+    public int currentHealth;  // Current health value
+    public AgeManager ageManager; // Reference to AgeManager
 
-	public int health = 100;
+    void Start()
+    {
+        currentHealth = maxHealth; // Initialize health at maximum
+    }
 
-	public GameObject deathEffect;
+    public void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
 
-	public void TakeDamage (int damage)
-	{
-		health -= damage;
+        Debug.Log(gameObject.name + " took " + damage + " damage. Current health: " + currentHealth);
 
-		if (health <= 0)
-		{
-			Die();
-		}
-	}
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
+    }
 
-	void Die ()
-	{
-		Instantiate(deathEffect, transform.position, Quaternion.identity);
-		Destroy(gameObject);
-	}
+    public void HealToFull()
+    {
+        currentHealth = maxHealth; // Restore health to the maximum value
+        Debug.Log(gameObject.name + " healed to full! Current health: " + currentHealth);
+    }
 
+    void Die()
+{
+    if (ageManager != null)
+    {
+        ageManager.ChangeAge(gameObject); // Pass this GameObject as the defeated player
+    }
+    else
+    {
+        Debug.LogError("AgeManager is not assigned!");
+    }
+}
 }
