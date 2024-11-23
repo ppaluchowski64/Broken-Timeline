@@ -9,6 +9,8 @@ TagManager:
   - Reload
   - Size
   - Rewind
+  - Blue Player
+  - Red Player
   layers:
   - Default
   - TransparentFX
