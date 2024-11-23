@@ -709,7 +709,31 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Medieval_platforms_0: 8752170257438767858
+      Medieval_platforms_1: -2508485371013940388
+      Medieval_platforms_10: 7155686633218358921
+      Medieval_platforms_11: -7007618215105639937
+      Medieval_platforms_12: 8811932293382807601
+      Medieval_platforms_13: -9150811454453239799
+      Medieval_platforms_14: -7671444691179440641
+      Medieval_platforms_15: -527277979875426164
+      Medieval_platforms_16: -3639683442236543180
+      Medieval_platforms_17: 2721629794287245415
+      Medieval_platforms_18: 2401713137898581730
+      Medieval_platforms_19: -5136019870187252044
+      Medieval_platforms_2: 7281968655463881676
+      Medieval_platforms_20: -9043309221748651914
+      Medieval_platforms_21: 99334406793513653
+      Medieval_platforms_22: -879343053050635968
+      Medieval_platforms_23: 596687390502095905
+      Medieval_platforms_3: -126348328210913308
+      Medieval_platforms_4: -5377465529086974616
+      Medieval_platforms_5: -4865398516338124784
+      Medieval_platforms_6: -327271683988702574
+      Medieval_platforms_7: -5580216145547765989
+      Medieval_platforms_8: 5122618409784415266
+      Medieval_platforms_9: -5820138452834790223
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

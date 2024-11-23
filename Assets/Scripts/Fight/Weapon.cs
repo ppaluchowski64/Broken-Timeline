@@ -12,7 +12,6 @@ public class Weapon : MonoBehaviour
     public Camera mainCamera; 
     public MovementManager MovementManager;
 
-    public bool playerTwo;
     private bool canShoot = true; 
     public float reloadTime; // The current reload time, based on the age
     private float chargeTime = 0f; 
@@ -27,58 +26,41 @@ public class Weapon : MonoBehaviour
     SetReloadTimeBasedOnAge(); // Set the initial reload time based on the current age
 }
 
-    private void Update()
+void Update()
+{
+     if (MovementManager.isreloadbuffed == false)
     {
-        Debug.Log(Input.GetButton("R2"));
-
-        if (MovementManager.isreloadbuffed == false)
-        {
-            reloadTimeMultiplier = 1f; 
-        }
-        SetReloadTimeBasedOnAge(); // Check and update the reload time every frame in case the age changes dynamically
-        float adjustedReloadTime = reloadTime * reloadTimeMultiplier;
-
-        Aim();
-
-        if (ageManager.Prehistory)
-        {
-            HandlePrehistoryInput();
-        }
-        else if (ageManager.Middle_Ages)
-        {
-            HandleMiddleAgesInput();
-        }
-        else if (ageManager.SCI_FI)
-        {
-            HandleSciFiInput();
-        }
+        reloadTimeMultiplier = 1f; 
     }
+    SetReloadTimeBasedOnAge(); // Check and update the reload time every frame in case the age changes dynamically
+    float adjustedReloadTime = reloadTime * reloadTimeMultiplier;
+    AimTowardsCursor();
 
-    private void Aim()
+    if (ageManager.Prehistory)
     {
-        Vector2 aimDir = Vector2.zero;
+        HandlePrehistoryInput();
+    }
+    else if (ageManager.Middle_Ages)
+    {
+        HandleMiddleAgesInput();
+    }
+    else if (ageManager.SCI_FI)
+    {
+        HandleSciFiInput();
+    }
+}
 
-        if (!playerTwo)
-        { // player 1
+    void AimTowardsCursor()
+    {
+        Vector3 mousePosition = Input.mousePosition;
+        mousePosition.z = 0f; 
 
-            Vector3 mousePosition = Input.mousePosition;
-            mousePosition.z = 0f;
+        Vector3 worldMousePosition = mainCamera.ScreenToWorldPoint(mousePosition);
+        worldMousePosition.z = 0f; 
 
-            Vector3 worldMousePosition = mainCamera.ScreenToWorldPoint(mousePosition);
-            worldMousePosition.z = 0f;
+        Vector3 aimDirection = (worldMousePosition - transform.position).normalized;
 
-            aimDir = (worldMousePosition - transform.position).normalized;
-        }
-        else
-        { // player 2
-
-            float horizontalInput = Input.GetAxis("JoystickHorizontalRight");
-            float verticalInput = Input.GetAxis("JoystickVerticalRight");
-
-            aimDir = new Vector2(horizontalInput, -verticalInput).normalized;
-        }
-
-        float angle = Mathf.Atan2(aimDir.y, aimDir.x) * Mathf.Rad2Deg;
+        float angle = Mathf.Atan2(aimDirection.y, aimDirection.x) * Mathf.Rad2Deg;
         firePoint.rotation = Quaternion.Euler(new Vector3(0f, 0f, angle));
     }
 
@@ -86,7 +68,7 @@ public class Weapon : MonoBehaviour
 {
     if (canShoot) // Only allow charging when the weapon is ready to shoot
     {
-        if (IsFireInput(false, false)) 
+        if (Input.GetMouseButton(0)) 
         {
             isCharging = true;
             chargeTime += Time.deltaTime;
@@ -94,7 +76,7 @@ public class Weapon : MonoBehaviour
             chargeSlider.value = Mathf.Clamp01(chargeTime / 2f); // Charge for a maximum of 2 seconds
         }
 
-        if (IsFireInput(false, true) && isCharging)
+        if (Input.GetMouseButtonUp(0) && isCharging) 
         {
             isCharging = false;
             chargeSlider.gameObject.SetActive(false);
@@ -111,49 +93,16 @@ public class Weapon : MonoBehaviour
 
     void HandleMiddleAgesInput()
     {
-        if (IsFireInput(true, false) && canShoot)
+        if (Input.GetMouseButtonDown(0) && canShoot)
         {
             Shoot(50f, 75, bulletPrefab); // Crossbow
             ResetCooldown();
         }
     }
 
-    bool IsFireInput(bool down, bool up)
-    {
-        if (!playerTwo)
-        {
-            if (down)
-            {
-                return Input.GetMouseButtonDown(0);
-            }
-            else if (up)
-            {
-                return Input.GetMouseButtonUp(0);
-            }
-            else
-            {
-                return Input.GetMouseButton(0);
-            }
-        }
-        else
-        {
-            if (down)
-            {
-                return Input.GetButtonDown("R2");
-            }
-            else if (up)
-            {
-                return Input.GetButtonUp("R2");
-            }
-            else
-            {
-                return Input.GetButton("R2");
-            }
-        }
-    }
 void HandleSciFiInput()
 {
-    if (canShoot && burstShotsRemaining == 0 && IsFireInput(true, false))
+    if (canShoot && burstShotsRemaining == 0 && Input.GetMouseButtonDown(0)) 
     {
         burstShotsRemaining = 3; // Start a burst of 3 shots
         StartCoroutine(BurstFire()); // Start the burst fire sequence

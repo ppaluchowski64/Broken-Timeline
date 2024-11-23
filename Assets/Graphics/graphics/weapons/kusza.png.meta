@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      kusza_0: 5497744771451472656
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Prehistoric_arena_0: -1184915968185294391
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
