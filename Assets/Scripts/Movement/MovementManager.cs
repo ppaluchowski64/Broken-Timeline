@@ -8,6 +8,7 @@ public class MovementManager : MonoBehaviour
     public float jumpForce = 10f;
 
     private Rigidbody2D rb;
+    private SpriteRenderer spriteRend;
     private bool isGrounded;
 
     private float originalMoveSpeed;
@@ -19,6 +20,7 @@ public class MovementManager : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        spriteRend = GetComponent<SpriteRenderer>();
         originalMoveSpeed = moveSpeed;
         originalScale = transform.localScale;
 
@@ -28,7 +30,7 @@ public class MovementManager : MonoBehaviour
 
     void Update()
     {
-        Debug.Log(gameObject.name);
+        //Debug.Log(gameObject.name);
         if (gameObject.name == "player1")
         {
             HandleKeyboardMovement();
@@ -49,11 +51,13 @@ public class MovementManager : MonoBehaviour
 
         if (horizontalInput < 0)
         {
-            transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+            spriteRend.flipX = true;
+            // transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
         }
         else if (horizontalInput > 0)
         {
-            transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+            spriteRend.flipX = false;
+            // transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
         }
     }
 
@@ -65,11 +69,11 @@ public class MovementManager : MonoBehaviour
 
         if (horizontalInput < 0)
         {
-            transform.localScale = new Vector3(-1f, 1f, 1f);
+            spriteRend.flipX = true;
         }
         else if (horizontalInput > 0)
         {
-            transform.localScale = new Vector3(1f, 1f, 1f);
+            spriteRend.flipX = false;
         }
     }
 
