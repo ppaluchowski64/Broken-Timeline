@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 3
   tags:
   - Ground
+  - Speed
+  - Reload
+  - Size
+  - Rewind
   layers:
   - Default
   - TransparentFX
@@ -12,7 +16,7 @@ TagManager:
   - Ground
   - Water
   - UI
-  - 
+  - PowerUpLayer
   - 
   - 
   - 
