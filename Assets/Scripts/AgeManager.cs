@@ -9,7 +9,6 @@ public class AgeManager : MonoBehaviour
 
     public GameObject RedPlayerwins;
     public GameObject BluePlayerwins;
-    public GameObject Score;
     public GameObject NextAgeSelectionPanel;
     public GameObject MedievalAgePanel;
     public GameObject ScifiAgePanel;
@@ -42,12 +41,10 @@ public class AgeManager : MonoBehaviour
     {
         // Show "Player Wins" and score panels
         yield return new WaitForSeconds(1f);
-        Score.SetActive(true);
 
         yield return new WaitForSeconds(2f);
         RedPlayerwins.SetActive(false);
         BluePlayerwins.SetActive(false);
-        Score.SetActive(false);
         NextAgeSelectionPanel.SetActive(true);
 
         yield return new WaitForSeconds(2f);
